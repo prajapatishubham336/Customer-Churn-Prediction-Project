@@ -2,19 +2,19 @@
 Customer churn is a major challenge for businesses, especially in banking and telecom sectors. This project uses machine learning models to predict whether a customer is likely to leave the service. By analyzing features like credit score, age, geography, and balance, the model identifies churn patterns. These insights help businesses take proactive steps to improve customer retention.
 
 
-📌 Project Overview
+📌 **Project Overview**
 
 Customer churn is a major concern for businesses, especially in banking and telecom sectors. This project aims to predict whether a customer will leave the service using machine learning models.
 
 By analyzing customer data such as credit score, geography, age, and balance, we build predictive models to identify churn behavior.
 
-🎯 Objective
+🎯 **Objective**
 
 Predict whether a customer will churn (Exit = 1) or not (Exit = 0)
 Compare performance of multiple machine learning models
 Improve business decision-making using data insights
 
-🚀 Features
+🚀 **Features**
 
 Data preprocessing and cleaning
 Exploratory Data Analysis (EDA)
@@ -27,14 +27,17 @@ Accuracy Score
 Confusion Matrix
 Classification Report
 
-🛠️ Technologies Used
+🛠️ **Technologies Used**
 
 Python 🐍
+
 Pandas & NumPy
+
 Matplotlib & Seaborn
+
 Scikit-learn
 
-📂 Dataset
+📂 **Dataset**
 
 The dataset used in this project is publicly available on Kaggle:
 
@@ -53,7 +56,7 @@ IsActiveMember
 EstimatedSalary
 Exited (Target Variable)
 
-🔹 Data Preprocessing Steps
+🔹 **Data Preprocessing Steps**
 
 Removed unnecessary columns:
 RowNumber
@@ -67,7 +70,7 @@ Split dataset into:
 Training set
 Testing set
 
-⚙️ How It Works
+⚙️ **How It Works**
 
 Load dataset using Pandas
 Clean and preprocess data
@@ -78,7 +81,7 @@ Logistic Regression
 Random Forest
 Evaluate models using metrics
 
-📊 Model Performance
+📊 **Model Performance**
 
 Logistic Regression
 Good baseline model
@@ -88,7 +91,7 @@ Higher accuracy compared to Logistic Regression
 Handles non-linear relationships better
 Reduces overfitting using ensemble learning
 
-📈 Evaluation Metrics Used
+📈 **Evaluation Metrics Used**
 
 Accuracy Score
 
@@ -96,13 +99,16 @@ Confusion Matrix
 
 Precision, Recall, F1-score
 
-📚 References
+📚 **References**
 
 Scikit-learn Documentation: https://scikit-learn.org/stable/
+
 Pandas Documentation: https://pandas.pydata.org/docs/
+
 Kaggle Dataset: https://www.kaggle.com/datasets/shubhendra7/customer-churn-prediction
 
-🔮 Future Improvements
+🔮 **Future Improvements**
+
 Hyperparameter tuning (GridSearchCV / RandomSearchCV)
 Try advanced models:
 XGBoost
@@ -111,7 +117,7 @@ Handle class imbalance using SMOTE
 Deploy model using Flask or Streamlit
 Add feature importance visualization
 
-✅ Conclusion
+✅ **Conclusion**
 
 This project demonstrates how machine learning can be used to predict customer churn effectively. Among the models used, Random Forest performed better due to its ability to capture complex patterns.
 
