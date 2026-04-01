@@ -91,7 +91,9 @@ Reduces overfitting using ensemble learning
 📈 Evaluation Metrics Used
 
 Accuracy Score
+
 Confusion Matrix
+
 Precision, Recall, F1-score
 
 📚 References
